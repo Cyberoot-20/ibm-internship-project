@@ -1,0 +1,22 @@
+
+Problem Statement No.12: Smart Business Idea Generator Agent
+
+The Challenge
+
+In the digital era, innovation is crucial, but individuals, students, researchers, and organizations often struggle with idea generation. Brainstorming sessions are unstructured, inspiration is scattered across articles, videos, and social media, and existing tools focus on text-only prompts without context-awareness. The challenge is not just to suggest random ideas but to synthesize creativity, context, and relevance into intelligent, actionable ideas for diverse domains such as startups, research, content creation, or product development.
+
+The Objective
+
+Build an agentic AI Smart Idea Generator that empowers users with contextual, innovative, and multimodal ideation. The solution should:
+
+Fuse Knowledge Sources: Pull insights from articles, research papers, trend analysis, and social platforms to generate contextual and current ideas.
+
+Enable Multimodal Brainstorming: Accept inputs like text prompts, images (e.g., product sketches), or voice notes and refine them into structured, creative suggestions.
+
+Create a Predictive & Agentic Layer: Identify trending domains (e.g., AI in healthcare, sustainable energy), forecast idea relevance, and recommend high-impact directions.
+
+Visualize Idea Maps: Provide an interactive dashboard that organizes ideas into categories, impact scores, and feasibility maps, helping users explore and refine concepts quickly.
+
+Tech Stack (Mandatory)
+
+IBM Langflow / IBM Orchestrate + IBM Models
