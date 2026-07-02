@@ -1,0 +1,34 @@
+# ============================================================
+#  IdeaForge AI — Dependencies
+#  Tested on Python 3.14 (Windows x64)
+#  Install: pip install -r requirements.txt
+# ============================================================
+
+# ── Web Framework ─────────────────────────────────────────────
+flask==3.0.3
+flask-cors==6.0.5
+Werkzeug==3.1.8
+
+# ── IBM Watsonx.ai SDK ────────────────────────────────────────
+# 1.5.14 is the latest version with Python 3.14 compatible wheels
+ibm-watsonx-ai==1.5.14
+
+# ── Environment / Utilities ───────────────────────────────────
+python-dotenv==1.0.1
+requests==2.34.2
+
+# ── Speech Recognition (voice notes) ─────────────────────────
+SpeechRecognition==3.14.3
+
+# ── Audio processing (optional — MP3/M4A) ────────────────────
+pydub==0.25.1
+
+# ── Production WSGI server (Windows compatible) ───────────────
+waitress==3.0.2
+
+# ── NOTE: Pillow (image processing) ──────────────────────────
+# Pillow has no pre-built wheel for Python 3.14 on Windows yet.
+# Install separately with the pre-release flag ONLY if needed:
+#   pip install --pre Pillow
+# The app works fine without it — image uploads are handled
+# by path-based description (no pixel processing required).
